@@ -1,5 +1,5 @@
 # Sales and Product performance Analysis: Identifying Key Drivers of Sales, Profitability and Growth
-🌐 Portfolio 🔗 Read Full Project On Medium
+## 🌐 Portfolio 🔗 Read Full Project On Medium
 🌼 Project Overview
 A company operating across six countries and ten regions sells bikes, clothing, and accessories. Despite strong sales activity across its markets, management lacked clear visibility into factors driving revenue and profitability. While sales volume appeared to increase over time, revenue growth did not always rise at the same rate, making it difficult to identify the factors influencing business performance. This project analyzes 30 months of transaction data to evaluate sales trends, product profitability, customer behavior, and regional performance. The analysis aims to determine whether gaps in revenue performance are linked to product mix, profitability, customer purchasing patterns, or market concentration. The findings revealed a growing number of low-margin products within the portfolio, a heavy reliance on the bike category for revenue generation, and revenue concentration in a small number of key markets.
 
