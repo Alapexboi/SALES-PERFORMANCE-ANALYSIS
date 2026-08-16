@@ -1,38 +1,38 @@
 # Sales and Product performance Analysis: Identifying Key Drivers of Sales, Profitability and Growth
-## 🌐 Portfolio 🔗 Read Full Project On Medium
-🌼 Project Overview
-A company operating across six countries and ten regions sells bikes, clothing, and accessories. Despite strong sales activity across its markets, management lacked clear visibility into factors driving revenue and profitability. While sales volume appeared to increase over time, revenue growth did not always rise at the same rate, making it difficult to identify the factors influencing business performance. This project analyzes 30 months of transaction data to evaluate sales trends, product profitability, customer behavior, and regional performance. The analysis aims to determine whether gaps in revenue performance are linked to product mix, profitability, customer purchasing patterns, or market concentration. The findings revealed a growing number of low-margin products within the portfolio, a heavy reliance on the bike category for revenue generation, and revenue concentration in a small number of key markets.
+## [🌐 Portfolio](https://www.linkedin.com/in/alarape-abdulazeez) [🔗 Read Full Project On Medium](https://medium.com/@alarapeolayiwola/from-data-to-decisions-analyzing-sales-revenue-profitability-growth-d5d018f86aca)
+# 🌼 Project Overview
+A multinational retail company operating across eight countries and three continent sells electronics, gadgets and appliances. Despite strong sales activity across its markets, management lacked clear visibility into the key factors driving revenue, profitability, and product performance.
+This project analyzes 62 months of transaction data to evaluate sales trends, product performance, profitability, and regional performance. The analysis focuses on identifying the factors influencing revenue growth and determining whether differences in performance are driven by product mix, profitability, or market concentration.
 
-Objective
+## Objective
 Determine whether sales performance increased throughout the analysis period.
-Identify the key products, categories, customers, and markets driving revenue and profitability.
+Identify the key products, categories, and markets driving revenue and profitability.
 Evaluate product profitability by identifying products that fall below the target margin and those that contribute most to overall profit.
-Analyze customer and regional performance to understand their impact on business growth.
 Provide data-driven recommendations to improve profitability and support business decision-making.
-🧰 Tool
-Tool	Purpose
-Power Query	Cleaning and Transformation
-Power BI	Data Modelling and Visualization
-Dataset Description
-The dataset was obtained from Kaggle. It follows a star schema with one fact tables and six dimension tables.
+## 🧰 Tool
+| Tool| Purpose|
+|-----|--------|
+| Power Query	| Cleaning and Transformation |
+| Power Pivot	| Data Modelling and Visualization |
+## Dataset Description
+The dataset was obtained from Kaggle. It follows a star schema with one fact tables and three dimension tables.
 
-Tables	Description	Rows
-fact_sales	contains sales record across various territories	56,046
-Dim_customers	contains customers details	18,148
-Dim_products	Contains information about products offered by the business	293
-Dim_product category	records of available product category	4
-Dim_Product subcategory	Information about various subcategory	37
-Dim_terriotry	Contains territory information	10
-Dim_date	Date covering Jan 1st 2015 to Dec 31st 2017	1096
-Data Workflow
+| Tables|	Description| Rows|
+|-------|------------|-----|
+|fact_sales	|contains sales record across various territories	|62,884
+|Dim_customer|	contains customers details	|15,266
+|Dim_product|	Contains information about products offered by the business	|2517
+|Dim_store| contains information about each stores location and its operational characteristics in the business.|67
+
+## Data Workflow
 Data Collection ↓ Data Cleaning ↓ Data Modeling ↓ Data Analysis ↓ Dashboard Development ↓ Insights & Recommendations
 
-Data Collection: The dataset was obtained from Kaggle.
-Data Cleaning: Ensure data quality, Checked for duplicated records, Replaced M with "Male" and F with "Female", and Promoted Headers
-Data Transformation: Concatenate the first name and last name to get the full name, Added Price and cost column into the sales table, calculated the total price and total cost in order to obtain total profit and calculate profit Margin.
-Data Modeling: Created relationships between tables and designed a star schema for reporting.
-Data Analysis: Created DAX measures and explored sales, profitability, and customer trends.
-Dashboard Development: Built a three page interactive Power BI dashboards to visualize key metrics.
-Reporting: Documented key findings and provided actionable recommendations.
-Data Model
+1. Data Collection: The dataset was obtained from Kaggle.
+2. Data Cleaning: Ensure data quality, Checked for duplicated records and Promoted Headers
+3. Data Transformation: Added Price and cost column into the sales table, calculated the total price and total cost in order to obtain total profit and calculate profit Margin.
+4. Data Modeling: Created relationships between tables and designed a star schema for reporting.
+5. Data Analysis: Created measures and explored sales, profitability, and Product performance trends.
+6. Dashboard Development: Built a two page interactive Excel dashboards to visualize key metrics.
+7. Reporting: Documented key findings and provided actionable recommendations.
+## Data Model
 This project presents a two-page Sales Analytics dashboard built in Excel for Identifying Key Revenue Drivers in a Global Electronics Retailer. The analysis focuses on sales performance, revenue trends, and product performance, turning retail sales data into Actionable Business Insights to support data-driven decision making and business growth.
