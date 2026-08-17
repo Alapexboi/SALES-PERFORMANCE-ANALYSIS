@@ -5,10 +5,15 @@ A multinational retail company operating across eight countries and three contin
 This project analyzes 62 months of transaction data to evaluate sales trends, product performance, profitability, and regional performance. The analysis focuses on identifying the factors influencing revenue growth and determining whether differences in performance are driven by product mix, profitability, or market concentration.
 
 # Objective
-Determine whether sales performance increased throughout the analysis period.
-Identify the key products, categories, and markets driving revenue and profitability.
-Evaluate product profitability by identifying products that fall below the target margin and those that contribute most to overall profit.
-Provide data-driven recommendations to improve profitability and support business decision-making.
+The main objective of this analysis was to identify the company’s key product-level revenue and sales drivers.
+
+The analysis focused on four major areas:
+* Top 5 products by units sold
+* Revenue by product category
+* Relationship between units sold and revenue
+* Relationship between units sold and revenue
+
+These analyses were selected because they provide both a volume perspective and a financial perspective on product performance.
 # 🧰 Tool
 | Tool| Purpose|
 |-----|--------|
